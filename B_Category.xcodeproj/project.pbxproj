@@ -13,6 +13,7 @@
 		4AD29CF01E7EB0AB005B39CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD29CEE1E7EB0AB005B39CD /* Main.storyboard */; };
 		4AD29CF21E7EB0AB005B39CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD29CF11E7EB0AB005B39CD /* Assets.xcassets */; };
 		4AD29CF51E7EB0AB005B39CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD29CF31E7EB0AB005B39CD /* LaunchScreen.storyboard */; };
+		4AD29CFF1E7EB206005B39CD /* CTMediator+Business_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD29CFE1E7EB206005B39CD /* CTMediator+Business_B.m */; };
 		D7BBA9330FD3224DF60EB09C /* libPods-B_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C50098C596569DB37591062 /* libPods-B_Category.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,8 @@
 		4AD29CF11E7EB0AB005B39CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AD29CF41E7EB0AB005B39CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AD29CF61E7EB0AB005B39CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD29CFD1E7EB206005B39CD /* CTMediator+Business_B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Business_B.h"; sourceTree = "<group>"; };
+		4AD29CFE1E7EB206005B39CD /* CTMediator+Business_B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Business_B.m"; sourceTree = "<group>"; };
 		5C50098C596569DB37591062 /* libPods-B_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-B_Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0CDE2F6032C3BB8A8C8FBAB /* Pods-B_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-B_Category.release.xcconfig"; path = "Pods/Target Support Files/Pods-B_Category/Pods-B_Category.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +68,7 @@
 		4AD29CE41E7EB0AB005B39CD /* B_Category */ = {
 			isa = PBXGroup;
 			children = (
+				4AD29CFC1E7EB1ED005B39CD /* B_Category */,
 				4AD29CE81E7EB0AB005B39CD /* AppDelegate.h */,
 				4AD29CE91E7EB0AB005B39CD /* AppDelegate.m */,
 				4AD29CEB1E7EB0AB005B39CD /* ViewController.h */,
@@ -84,6 +88,16 @@
 				4AD29CE61E7EB0AB005B39CD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AD29CFC1E7EB1ED005B39CD /* B_Category */ = {
+			isa = PBXGroup;
+			children = (
+				4AD29CFD1E7EB206005B39CD /* CTMediator+Business_B.h */,
+				4AD29CFE1E7EB206005B39CD /* CTMediator+Business_B.m */,
+			);
+			name = B_Category;
+			path = B_Category/B_Category;
 			sourceTree = "<group>";
 		};
 		BB249C0C1DA149CDC0DEBEC6 /* Frameworks */ = {
@@ -227,6 +241,7 @@
 			files = (
 				4AD29CED1E7EB0AB005B39CD /* ViewController.m in Sources */,
 				4AD29CEA1E7EB0AB005B39CD /* AppDelegate.m in Sources */,
+				4AD29CFF1E7EB206005B39CD /* CTMediator+Business_B.m in Sources */,
 				4AD29CE71E7EB0AB005B39CD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +401,7 @@
 				4AD29CFB1E7EB0AB005B39CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
